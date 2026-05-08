@@ -6,7 +6,7 @@
 
 ## Background
 
-Robert Uzgalis, professor of computer science at the University of Auckland, wrote an I Ching probability program in an era when mercury delay lines served as working memory. The program explored the mathematical properties of the yarrow stalk divination method — a process described in the *Great Commentary* (繫辭傳) of the *Yijing*, where 49 stalks are divided, counted, and recombined across three rounds to produce a single line of a hexagram.
+Robert Uzgalis, a computer scientist who spent two decades at UCLA before teaching at the University of Hong Kong and then the University of Auckland, wrote an I Ching probability program in an era when mercury delay lines served as working memory. The program explored the mathematical properties of the yarrow stalk divination method — a process described in the *Great Commentary* (繫辭傳) of the *Yijing*, where 49 stalks are divided, counted, and recombined across three rounds to produce a single line of a hexagram.
 
 This repository presents a finding that emerged from our own attempt to faithfully reproduce that process in code: **the idealized probabilities that textbooks cite for the yarrow stalk method (1/16, 5/16, 7/16, 3/16) cannot be exactly reproduced by any discrete physical simulation** — and the reason is an integer boundary problem that Uzgalis himself would have encountered on any hardware.
 
