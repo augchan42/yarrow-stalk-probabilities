@@ -36,7 +36,7 @@ The yarrow stalk method of I-Ching divination produces four line types with idea
 \section{Introduction}\label{sec:introduction}
 %% ============================================================
 
-The yarrow stalk oracle, described in the \textit{Great Commentary} (\begin{CJK}{UTF8}{gbsn}繫辭傳\end{CJK}) of the \textit{Yijing}, prescribes a ritual in which 49 stalks are divided, counted by fours, and recombined across three rounds to produce a single line of a hexagram \cite{wilhelm1950iching}. The standard mathematical analysis derives four line probabilities---$\frac{1}{16}$, $\frac{5}{16}$, $\frac{7}{16}$, $\frac{3}{16}$ for line values 6, 7, 8, 9 respectively---that differ from the symmetric $\frac{1}{8}$, $\frac{3}{8}$, $\frac{3}{8}$, $\frac{1}{8}$ of the three-coin method \cite{shields1999yarrow}. This asymmetry is the mathematical signature of the yarrow stalk method: changing yin (6) is rarer than changing yang (9), and stable yin (8) is more common than stable yang (7).
+The yarrow stalk oracle, described in the \textit{Great Commentary} (\begin{CJK}{UTF8}{gbsn}繫辭傳\end{CJK}) of the \textit{Yijing}, prescribes a ritual in which 50 stalks are used: one is set aside permanently, and the remaining 49 are divided, counted by fours, and recombined across three rounds to produce a single line of a hexagram \cite{wilhelm1950iching}. The standard mathematical analysis derives four line probabilities---$\frac{1}{16}$, $\frac{5}{16}$, $\frac{7}{16}$, $\frac{3}{16}$ for line values 6, 7, 8, 9 respectively---that differ from the symmetric $\frac{1}{8}$, $\frac{3}{8}$, $\frac{3}{8}$, $\frac{1}{8}$ of the three-coin method \cite{shields1999yarrow}. This asymmetry is the mathematical signature of the yarrow stalk method: changing yin (6) is rarer than changing yang (9), and stable yin (8) is more common than stable yang (7).
 
 The derivation rests on a critical assumption: that when $N$ stalks are divided into two piles, each of the four mod-4 residue classes has exactly probability $\frac{1}{4}$. Under this assumption, round~1 (48 stalks) produces $P(\text{large}) = \frac{1}{4}$ and $P(\text{small}) = \frac{3}{4}$, while rounds~2--3 (40 or 44 stalks) produce $P(\text{large}) = P(\text{small}) = \frac{1}{2}$.
 
@@ -46,7 +46,7 @@ We show that this assumption cannot hold for any finite number of stalks, identi
 \section{The Yarrow Stalk Process}\label{sec:process}
 %% ============================================================
 
-Each line requires three rounds. In each round:
+Of the 50 stalks, one is set aside at the outset to represent the Taiji (\begin{CJK}{UTF8}{gbsn}太極\end{CJK}), the unchanging unity underlying all change; it plays no further role. The remaining 49 form the working pile. Each line requires three rounds. In each round:
 
 \begin{enumerate}
 \tightlist
