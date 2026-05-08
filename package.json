@@ -1,0 +1,13 @@
+{
+  "name": "yarrow-stalk-probabilities",
+  "version": "1.0.0",
+  "description": "Analysis of yarrow stalk divination probabilities: idealized vs. simulated",
+  "private": true,
+  "scripts": {
+    "analyze": "tsx src/analyze.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
